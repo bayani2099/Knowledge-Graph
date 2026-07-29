@@ -1,0 +1,47 @@
+[
+  {
+    "source": "Republic of Austria",
+    "target": "\u00c3\u2013sterreichische Beteiligungs AG",
+    "percentage": 100.0
+  },
+  {
+    "source": "\u00c3\u2013sterreichische Beteiligungs AG",
+    "target": "\u00c3\u2013sterreichische Post AG",
+    "percentage": 52.85
+  },
+  {
+    "source": "\u00c3\u2013sterreichische Post AG",
+    "target": "bank99 AG",
+    "percentage": 90.0
+  },
+  {
+    "source": "Schelhammer Capital Bank AG",
+    "target": "bank99 AG",
+    "percentage": 10.0
+  },
+  {
+    "source": "\u00c3\u2013sterreichische Beteiligungs AG",
+    "target": "OMV AG",
+    "percentage": 31.5
+  },
+  {
+    "source": "ADNOC P.J.S.C.",
+    "target": "OMV AG",
+    "percentage": 24.9
+  },
+  {
+    "source": "Republic of Austria",
+    "target": "VERBUND AG",
+    "percentage": 51.0
+  },
+  {
+    "source": "\u00c3\u2013sterreichische Beteiligungs AG",
+    "target": "Telekom Austria AG",
+    "percentage": 28.42
+  },
+  {
+    "source": "Am\u00c3\u00a9rica M\u00c3\u00b3vil B.V.",
+    "target": "Telekom Austria AG",
+    "percentage": 60.9
+  }
+]
