@@ -1,0 +1,28 @@
+<h2>Company Search</h2>
+
+<input
+  class="search-input"
+  type="text"
+  placeholder="Search company or investor..."
+  [(ngModel)]="searchText"
+/>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Details</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr *ngFor="let company of filteredCompanies">
+      <td>{{ company.label }}</td>
+      <td>{{ company.type }}</td>
+      <td>
+        <a [routerLink]="['/company', company.id]">Open</a>
+      </td>
+    </tr>
+  </tbody>
+</table>

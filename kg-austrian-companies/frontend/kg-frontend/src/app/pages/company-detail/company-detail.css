@@ -1,0 +1,23 @@
+section {
+  margin-top: 24px;
+  padding: 16px;
+  border: 1px solid #ddd;
+  background: #fafafa;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+a {
+  color: #2563eb;
+  font-weight: bold;
+}

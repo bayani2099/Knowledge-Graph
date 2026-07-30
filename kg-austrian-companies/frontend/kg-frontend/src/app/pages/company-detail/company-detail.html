@@ -1,0 +1,83 @@
+<a routerLink="/">← Back to list</a>
+
+<h2>{{ companyId }}</h2>
+
+<section>
+  <h3>Owns</h3>
+
+  @if (outgoingOwnership.length > 0) {
+    <ul>
+      @for (edge of outgoingOwnership; track edge.from + edge.to) {
+        <li>{{ edge.from }} owns {{ edge.percentage }}% of {{ edge.to }}</li>
+      }
+    </ul>
+  } @else {
+    <p>No outgoing ownership relations.</p>
+  }
+</section>
+
+<section>
+  <h3>Owned By</h3>
+
+  @if (incomingOwnership.length > 0) {
+    <ul>
+      @for (edge of incomingOwnership; track edge.from + edge.to) {
+        <li>{{ edge.from }} owns {{ edge.percentage }}% of {{ edge.to }}</li>
+      }
+    </ul>
+  } @else {
+    <p>No incoming ownership relations.</p>
+  }
+</section>
+
+<section>
+  <h3>Direct Control</h3>
+
+  @if (directControls.length > 0) {
+    <ul>
+      @for (relation of directControls; track relation.controller + relation.controlled) {
+        <li>{{ relation.reason }}</li>
+      }
+    </ul>
+  } @else {
+    <p>No direct control relations.</p>
+  }
+</section>
+
+<section>
+  <h3>Indirect Control</h3>
+
+  @if (indirectControls.length > 0) {
+    <ul>
+      @for (relation of indirectControls; track relation.controller + relation.controlled) {
+        <li>
+          {{ relation.controller }} indirectly controls {{ relation.controlled }}
+          through path: {{ relation.path.join(' → ') }}
+        </li>
+      }
+    </ul>
+  } @else {
+    <p>No indirect control relations.</p>
+  }
+</section>
+
+<section>
+  <h3>Controlled By</h3>
+
+  @if (controlledByDirect.length > 0 || controlledByIndirect.length > 0) {
+    <ul>
+      @for (relation of controlledByDirect; track relation.controller + relation.controlled) {
+        <li>Directly controlled by {{ relation.controller }}</li>
+      }
+
+      @for (relation of controlledByIndirect; track relation.controller + relation.controlled) {
+        <li>
+          Indirectly controlled by {{ relation.controller }}
+          through path: {{ relation.path.join(' → ') }}
+        </li>
+      }
+    </ul>
+  } @else {
+    <p>No controller found.</p>
+  }
+</section>

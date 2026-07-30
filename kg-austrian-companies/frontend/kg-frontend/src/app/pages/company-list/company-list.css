@@ -1,0 +1,29 @@
+.search-input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+th {
+  background: #f3f4f6;
+  text-align: left;
+}
+
+a {
+  color: #2563eb;
+  font-weight: bold;
+}
