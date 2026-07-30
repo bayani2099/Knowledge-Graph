@@ -1,0 +1,119 @@
+{
+  "nodes": [
+    {
+      "id": "Republic of Austria",
+      "label": "Republic of Austria",
+      "type": "entity"
+    },
+    {
+      "id": "\u00c3\u2013sterreichische Beteiligungs AG",
+      "label": "\u00c3\u2013sterreichische Beteiligungs AG",
+      "type": "company"
+    },
+    {
+      "id": "\u00c3\u2013sterreichische Post AG",
+      "label": "\u00c3\u2013sterreichische Post AG",
+      "type": "company"
+    },
+    {
+      "id": "bank99 AG",
+      "label": "bank99 AG",
+      "type": "company"
+    },
+    {
+      "id": "Schelhammer Capital Bank AG",
+      "label": "Schelhammer Capital Bank AG",
+      "type": "entity"
+    },
+    {
+      "id": "OMV AG",
+      "label": "OMV AG",
+      "type": "company"
+    },
+    {
+      "id": "ADNOC P.J.S.C.",
+      "label": "ADNOC P.J.S.C.",
+      "type": "entity"
+    },
+    {
+      "id": "VERBUND AG",
+      "label": "VERBUND AG",
+      "type": "company"
+    },
+    {
+      "id": "Telekom Austria AG",
+      "label": "Telekom Austria AG",
+      "type": "company"
+    },
+    {
+      "id": "Am\u00c3\u00a9rica M\u00c3\u00b3vil B.V.",
+      "label": "Am\u00c3\u00a9rica M\u00c3\u00b3vil B.V.",
+      "type": "entity"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Republic of Austria",
+      "to": "\u00c3\u2013sterreichische Beteiligungs AG",
+      "label": "100.0%",
+      "type": "OWNS",
+      "percentage": 100.0
+    },
+    {
+      "from": "\u00c3\u2013sterreichische Beteiligungs AG",
+      "to": "\u00c3\u2013sterreichische Post AG",
+      "label": "52.85%",
+      "type": "OWNS",
+      "percentage": 52.85
+    },
+    {
+      "from": "\u00c3\u2013sterreichische Post AG",
+      "to": "bank99 AG",
+      "label": "90.0%",
+      "type": "OWNS",
+      "percentage": 90.0
+    },
+    {
+      "from": "Schelhammer Capital Bank AG",
+      "to": "bank99 AG",
+      "label": "10.0%",
+      "type": "OWNS",
+      "percentage": 10.0
+    },
+    {
+      "from": "\u00c3\u2013sterreichische Beteiligungs AG",
+      "to": "OMV AG",
+      "label": "31.5%",
+      "type": "OWNS",
+      "percentage": 31.5
+    },
+    {
+      "from": "ADNOC P.J.S.C.",
+      "to": "OMV AG",
+      "label": "24.9%",
+      "type": "OWNS",
+      "percentage": 24.9
+    },
+    {
+      "from": "Republic of Austria",
+      "to": "VERBUND AG",
+      "label": "51.0%",
+      "type": "OWNS",
+      "percentage": 51.0
+    },
+    {
+      "from": "\u00c3\u2013sterreichische Beteiligungs AG",
+      "to": "Telekom Austria AG",
+      "label": "28.42%",
+      "type": "OWNS",
+      "percentage": 28.42
+    },
+    {
+      "from": "Am\u00c3\u00a9rica M\u00c3\u00b3vil B.V.",
+      "to": "Telekom Austria AG",
+      "label": "60.9%",
+      "type": "OWNS",
+      "percentage": 60.9
+    }
+  ]
+}

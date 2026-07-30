@@ -1,0 +1,90 @@
+{
+  "direct_control": [
+    {
+      "controller": "Republic of Austria",
+      "controlled": "\u00c3\u2013sterreichische Beteiligungs AG",
+      "type": "DIRECT_CONTROL",
+      "path": [
+        "Republic of Austria",
+        "\u00c3\u2013sterreichische Beteiligungs AG"
+      ],
+      "reason": "Republic of Austria owns 100.0% of \u00c3\u2013sterreichische Beteiligungs AG"
+    },
+    {
+      "controller": "\u00c3\u2013sterreichische Beteiligungs AG",
+      "controlled": "\u00c3\u2013sterreichische Post AG",
+      "type": "DIRECT_CONTROL",
+      "path": [
+        "\u00c3\u2013sterreichische Beteiligungs AG",
+        "\u00c3\u2013sterreichische Post AG"
+      ],
+      "reason": "\u00c3\u2013sterreichische Beteiligungs AG owns 52.85% of \u00c3\u2013sterreichische Post AG"
+    },
+    {
+      "controller": "\u00c3\u2013sterreichische Post AG",
+      "controlled": "bank99 AG",
+      "type": "DIRECT_CONTROL",
+      "path": [
+        "\u00c3\u2013sterreichische Post AG",
+        "bank99 AG"
+      ],
+      "reason": "\u00c3\u2013sterreichische Post AG owns 90.0% of bank99 AG"
+    },
+    {
+      "controller": "Republic of Austria",
+      "controlled": "VERBUND AG",
+      "type": "DIRECT_CONTROL",
+      "path": [
+        "Republic of Austria",
+        "VERBUND AG"
+      ],
+      "reason": "Republic of Austria owns 51.0% of VERBUND AG"
+    },
+    {
+      "controller": "Am\u00c3\u00a9rica M\u00c3\u00b3vil B.V.",
+      "controlled": "Telekom Austria AG",
+      "type": "DIRECT_CONTROL",
+      "path": [
+        "Am\u00c3\u00a9rica M\u00c3\u00b3vil B.V.",
+        "Telekom Austria AG"
+      ],
+      "reason": "Am\u00c3\u00a9rica M\u00c3\u00b3vil B.V. owns 60.9% of Telekom Austria AG"
+    }
+  ],
+  "indirect_control": [
+    {
+      "controller": "Republic of Austria",
+      "controlled": "\u00c3\u2013sterreichische Post AG",
+      "type": "INDIRECT_CONTROL",
+      "path": [
+        "Republic of Austria",
+        "\u00c3\u2013sterreichische Beteiligungs AG",
+        "\u00c3\u2013sterreichische Post AG"
+      ],
+      "reason": "Republic of Austria controls \u00c3\u2013sterreichische Post AG through \u00c3\u2013sterreichische Beteiligungs AG"
+    },
+    {
+      "controller": "Republic of Austria",
+      "controlled": "bank99 AG",
+      "type": "INDIRECT_CONTROL",
+      "path": [
+        "Republic of Austria",
+        "\u00c3\u2013sterreichische Beteiligungs AG",
+        "\u00c3\u2013sterreichische Post AG",
+        "bank99 AG"
+      ],
+      "reason": "Republic of Austria controls bank99 AG through \u00c3\u2013sterreichische Beteiligungs AG -> \u00c3\u2013sterreichische Post AG"
+    },
+    {
+      "controller": "\u00c3\u2013sterreichische Beteiligungs AG",
+      "controlled": "bank99 AG",
+      "type": "INDIRECT_CONTROL",
+      "path": [
+        "\u00c3\u2013sterreichische Beteiligungs AG",
+        "\u00c3\u2013sterreichische Post AG",
+        "bank99 AG"
+      ],
+      "reason": "\u00c3\u2013sterreichische Beteiligungs AG controls bank99 AG through \u00c3\u2013sterreichische Post AG"
+    }
+  ]
+}
