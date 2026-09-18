@@ -1,16 +1,16 @@
 [
   {
     "source": "Republic of Austria",
-    "target": "\u00c3\u2013sterreichische Beteiligungs AG",
+    "target": "Österreichische Beteiligungs AG",
     "percentage": 100.0
   },
   {
-    "source": "\u00c3\u2013sterreichische Beteiligungs AG",
-    "target": "\u00c3\u2013sterreichische Post AG",
+    "source": "Österreichische Beteiligungs AG",
+    "target": "Österreichische Post AG",
     "percentage": 52.85
   },
   {
-    "source": "\u00c3\u2013sterreichische Post AG",
+    "source": "Österreichische Post AG",
     "target": "bank99 AG",
     "percentage": 90.0
   },
@@ -20,7 +20,7 @@
     "percentage": 10.0
   },
   {
-    "source": "\u00c3\u2013sterreichische Beteiligungs AG",
+    "source": "Österreichische Beteiligungs AG",
     "target": "OMV AG",
     "percentage": 31.5
   },
@@ -35,12 +35,12 @@
     "percentage": 51.0
   },
   {
-    "source": "\u00c3\u2013sterreichische Beteiligungs AG",
+    "source": "Österreichische Beteiligungs AG",
     "target": "Telekom Austria AG",
     "percentage": 28.42
   },
   {
-    "source": "Am\u00c3\u00a9rica M\u00c3\u00b3vil B.V.",
+    "source": "América Móvil B.V.",
     "target": "Telekom Austria AG",
     "percentage": 60.9
   }

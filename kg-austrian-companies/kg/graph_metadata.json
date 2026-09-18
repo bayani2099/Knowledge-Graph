@@ -1,0 +1,30 @@
+{
+  "source": "data/cleaned_data.json",
+  "graph_file": "kg/graph.json",
+  "statistics": {
+    "nodes": 10,
+    "edges": 9,
+    "input_relations": 9,
+    "node_types": {
+      "entity": 3,
+      "company": 7
+    },
+    "relationship_types": {
+      "OWNS": 9
+    }
+  },
+  "schema": {
+    "node_attributes": [
+      "id",
+      "label",
+      "type"
+    ],
+    "edge_attributes": [
+      "from",
+      "to",
+      "label",
+      "type",
+      "percentage"
+    ]
+  }
+}

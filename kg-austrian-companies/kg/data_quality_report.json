@@ -1,0 +1,19 @@
+{
+  "input_file": "data/Raw_Companies_Data.csv",
+  "output_file": "data/cleaned_data.json",
+  "total_rows": 9,
+  "valid_rows": 9,
+  "invalid_rows": 0,
+  "duplicate_rows_removed": 0,
+  "unique_entities": 10,
+  "unique_ownership_relations": 9,
+  "validation_rules": {
+    "percentage_min": 0.0,
+    "percentage_max": 100.0,
+    "empty_entity_names_rejected": true,
+    "self_ownership_rejected": true,
+    "duplicate_relations_removed": true,
+    "whitespace_normalization": true
+  },
+  "invalid_records": []
+}

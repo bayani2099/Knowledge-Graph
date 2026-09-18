@@ -6,13 +6,13 @@
       "type": "entity"
     },
     {
-      "id": "\u00c3\u2013sterreichische Beteiligungs AG",
-      "label": "\u00c3\u2013sterreichische Beteiligungs AG",
+      "id": "Österreichische Beteiligungs AG",
+      "label": "Österreichische Beteiligungs AG",
       "type": "company"
     },
     {
-      "id": "\u00c3\u2013sterreichische Post AG",
-      "label": "\u00c3\u2013sterreichische Post AG",
+      "id": "Österreichische Post AG",
+      "label": "Österreichische Post AG",
       "type": "company"
     },
     {
@@ -23,7 +23,7 @@
     {
       "id": "Schelhammer Capital Bank AG",
       "label": "Schelhammer Capital Bank AG",
-      "type": "entity"
+      "type": "company"
     },
     {
       "id": "OMV AG",
@@ -46,28 +46,28 @@
       "type": "company"
     },
     {
-      "id": "Am\u00c3\u00a9rica M\u00c3\u00b3vil B.V.",
-      "label": "Am\u00c3\u00a9rica M\u00c3\u00b3vil B.V.",
+      "id": "América Móvil B.V.",
+      "label": "América Móvil B.V.",
       "type": "entity"
     }
   ],
   "edges": [
     {
       "from": "Republic of Austria",
-      "to": "\u00c3\u2013sterreichische Beteiligungs AG",
+      "to": "Österreichische Beteiligungs AG",
       "label": "100.0%",
       "type": "OWNS",
       "percentage": 100.0
     },
     {
-      "from": "\u00c3\u2013sterreichische Beteiligungs AG",
-      "to": "\u00c3\u2013sterreichische Post AG",
+      "from": "Österreichische Beteiligungs AG",
+      "to": "Österreichische Post AG",
       "label": "52.85%",
       "type": "OWNS",
       "percentage": 52.85
     },
     {
-      "from": "\u00c3\u2013sterreichische Post AG",
+      "from": "Österreichische Post AG",
       "to": "bank99 AG",
       "label": "90.0%",
       "type": "OWNS",
@@ -81,7 +81,7 @@
       "percentage": 10.0
     },
     {
-      "from": "\u00c3\u2013sterreichische Beteiligungs AG",
+      "from": "Österreichische Beteiligungs AG",
       "to": "OMV AG",
       "label": "31.5%",
       "type": "OWNS",
@@ -102,14 +102,14 @@
       "percentage": 51.0
     },
     {
-      "from": "\u00c3\u2013sterreichische Beteiligungs AG",
+      "from": "Österreichische Beteiligungs AG",
       "to": "Telekom Austria AG",
       "label": "28.42%",
       "type": "OWNS",
       "percentage": 28.42
     },
     {
-      "from": "Am\u00c3\u00a9rica M\u00c3\u00b3vil B.V.",
+      "from": "América Móvil B.V.",
       "to": "Telekom Austria AG",
       "label": "60.9%",
       "type": "OWNS",
@@ -119,66 +119,81 @@
   "direct_control": [
     {
       "controller": "Republic of Austria",
-      "controlled": "\u00c3\u2013sterreichische Beteiligungs AG",
+      "controlled": "Österreichische Beteiligungs AG",
       "type": "DIRECT_CONTROL",
+      "ownership_percentage": 100.0,
       "path": [
         "Republic of Austria",
-        "\u00c3\u2013sterreichische Beteiligungs AG"
+        "Österreichische Beteiligungs AG"
       ],
-      "reason": "Republic of Austria owns 100.0% of \u00c3\u2013sterreichische Beteiligungs AG"
+      "depth": 1,
+      "reason": "Republic of Austria owns 100.0% of Österreichische Beteiligungs AG, which meets the 50.0% control threshold."
     },
     {
-      "controller": "\u00c3\u2013sterreichische Beteiligungs AG",
-      "controlled": "\u00c3\u2013sterreichische Post AG",
+      "controller": "Österreichische Beteiligungs AG",
+      "controlled": "Österreichische Post AG",
       "type": "DIRECT_CONTROL",
+      "ownership_percentage": 52.85,
       "path": [
-        "\u00c3\u2013sterreichische Beteiligungs AG",
-        "\u00c3\u2013sterreichische Post AG"
+        "Österreichische Beteiligungs AG",
+        "Österreichische Post AG"
       ],
-      "reason": "\u00c3\u2013sterreichische Beteiligungs AG owns 52.85% of \u00c3\u2013sterreichische Post AG"
+      "depth": 1,
+      "reason": "Österreichische Beteiligungs AG owns 52.85% of Österreichische Post AG, which meets the 50.0% control threshold."
     },
     {
-      "controller": "\u00c3\u2013sterreichische Post AG",
+      "controller": "Österreichische Post AG",
       "controlled": "bank99 AG",
       "type": "DIRECT_CONTROL",
+      "ownership_percentage": 90.0,
       "path": [
-        "\u00c3\u2013sterreichische Post AG",
+        "Österreichische Post AG",
         "bank99 AG"
       ],
-      "reason": "\u00c3\u2013sterreichische Post AG owns 90.0% of bank99 AG"
+      "depth": 1,
+      "reason": "Österreichische Post AG owns 90.0% of bank99 AG, which meets the 50.0% control threshold."
     },
     {
       "controller": "Republic of Austria",
       "controlled": "VERBUND AG",
       "type": "DIRECT_CONTROL",
+      "ownership_percentage": 51.0,
       "path": [
         "Republic of Austria",
         "VERBUND AG"
       ],
-      "reason": "Republic of Austria owns 51.0% of VERBUND AG"
+      "depth": 1,
+      "reason": "Republic of Austria owns 51.0% of VERBUND AG, which meets the 50.0% control threshold."
     },
     {
-      "controller": "Am\u00c3\u00a9rica M\u00c3\u00b3vil B.V.",
+      "controller": "América Móvil B.V.",
       "controlled": "Telekom Austria AG",
       "type": "DIRECT_CONTROL",
+      "ownership_percentage": 60.9,
       "path": [
-        "Am\u00c3\u00a9rica M\u00c3\u00b3vil B.V.",
+        "América Móvil B.V.",
         "Telekom Austria AG"
       ],
-      "reason": "Am\u00c3\u00a9rica M\u00c3\u00b3vil B.V. owns 60.9% of Telekom Austria AG"
+      "depth": 1,
+      "reason": "América Móvil B.V. owns 60.9% of Telekom Austria AG, which meets the 50.0% control threshold."
     }
   ],
   "indirect_control": [
     {
       "controller": "Republic of Austria",
-      "controlled": "\u00c3\u2013sterreichische Post AG",
+      "controlled": "Österreichische Post AG",
       "type": "INDIRECT_CONTROL",
       "path": [
         "Republic of Austria",
-        "\u00c3\u2013sterreichische Beteiligungs AG",
-        "\u00c3\u2013sterreichische Post AG"
+        "Österreichische Beteiligungs AG",
+        "Österreichische Post AG"
       ],
-      "reason": "Republic of Austria controls \u00c3\u2013sterreichische Post AG through \u00c3\u2013sterreichische Beteiligungs AG"
+      "depth": 2,
+      "intermediate_entities": [
+        "Österreichische Beteiligungs AG"
+      ],
+      "reasoning_rule": "Transitive control: if A controls B and B controls C, then A indirectly controls C.",
+      "reason": "Republic of Austria indirectly controls Österreichische Post AG through Österreichische Beteiligungs AG."
     },
     {
       "controller": "Republic of Austria",
@@ -186,22 +201,33 @@
       "type": "INDIRECT_CONTROL",
       "path": [
         "Republic of Austria",
-        "\u00c3\u2013sterreichische Beteiligungs AG",
-        "\u00c3\u2013sterreichische Post AG",
+        "Österreichische Beteiligungs AG",
+        "Österreichische Post AG",
         "bank99 AG"
       ],
-      "reason": "Republic of Austria controls bank99 AG through \u00c3\u2013sterreichische Beteiligungs AG -> \u00c3\u2013sterreichische Post AG"
+      "depth": 3,
+      "intermediate_entities": [
+        "Österreichische Beteiligungs AG",
+        "Österreichische Post AG"
+      ],
+      "reasoning_rule": "Transitive control: if A controls B and B controls C, then A indirectly controls C.",
+      "reason": "Republic of Austria indirectly controls bank99 AG through Österreichische Beteiligungs AG -> Österreichische Post AG."
     },
     {
-      "controller": "\u00c3\u2013sterreichische Beteiligungs AG",
+      "controller": "Österreichische Beteiligungs AG",
       "controlled": "bank99 AG",
       "type": "INDIRECT_CONTROL",
       "path": [
-        "\u00c3\u2013sterreichische Beteiligungs AG",
-        "\u00c3\u2013sterreichische Post AG",
+        "Österreichische Beteiligungs AG",
+        "Österreichische Post AG",
         "bank99 AG"
       ],
-      "reason": "\u00c3\u2013sterreichische Beteiligungs AG controls bank99 AG through \u00c3\u2013sterreichische Post AG"
+      "depth": 2,
+      "intermediate_entities": [
+        "Österreichische Post AG"
+      ],
+      "reasoning_rule": "Transitive control: if A controls B and B controls C, then A indirectly controls C.",
+      "reason": "Österreichische Beteiligungs AG indirectly controls bank99 AG through Österreichische Post AG."
     }
   ]
 }

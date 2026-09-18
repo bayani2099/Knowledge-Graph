@@ -6,13 +6,13 @@
       "type": "entity"
     },
     {
-      "id": "\u00c3\u2013sterreichische Beteiligungs AG",
-      "label": "\u00c3\u2013sterreichische Beteiligungs AG",
+      "id": "Österreichische Beteiligungs AG",
+      "label": "Österreichische Beteiligungs AG",
       "type": "company"
     },
     {
-      "id": "\u00c3\u2013sterreichische Post AG",
-      "label": "\u00c3\u2013sterreichische Post AG",
+      "id": "Österreichische Post AG",
+      "label": "Österreichische Post AG",
       "type": "company"
     },
     {
@@ -23,7 +23,7 @@
     {
       "id": "Schelhammer Capital Bank AG",
       "label": "Schelhammer Capital Bank AG",
-      "type": "entity"
+      "type": "company"
     },
     {
       "id": "OMV AG",
@@ -46,28 +46,28 @@
       "type": "company"
     },
     {
-      "id": "Am\u00c3\u00a9rica M\u00c3\u00b3vil B.V.",
-      "label": "Am\u00c3\u00a9rica M\u00c3\u00b3vil B.V.",
+      "id": "América Móvil B.V.",
+      "label": "América Móvil B.V.",
       "type": "entity"
     }
   ],
   "edges": [
     {
       "from": "Republic of Austria",
-      "to": "\u00c3\u2013sterreichische Beteiligungs AG",
+      "to": "Österreichische Beteiligungs AG",
       "label": "100.0%",
       "type": "OWNS",
       "percentage": 100.0
     },
     {
-      "from": "\u00c3\u2013sterreichische Beteiligungs AG",
-      "to": "\u00c3\u2013sterreichische Post AG",
+      "from": "Österreichische Beteiligungs AG",
+      "to": "Österreichische Post AG",
       "label": "52.85%",
       "type": "OWNS",
       "percentage": 52.85
     },
     {
-      "from": "\u00c3\u2013sterreichische Post AG",
+      "from": "Österreichische Post AG",
       "to": "bank99 AG",
       "label": "90.0%",
       "type": "OWNS",
@@ -81,7 +81,7 @@
       "percentage": 10.0
     },
     {
-      "from": "\u00c3\u2013sterreichische Beteiligungs AG",
+      "from": "Österreichische Beteiligungs AG",
       "to": "OMV AG",
       "label": "31.5%",
       "type": "OWNS",
@@ -102,14 +102,14 @@
       "percentage": 51.0
     },
     {
-      "from": "\u00c3\u2013sterreichische Beteiligungs AG",
+      "from": "Österreichische Beteiligungs AG",
       "to": "Telekom Austria AG",
       "label": "28.42%",
       "type": "OWNS",
       "percentage": 28.42
     },
     {
-      "from": "Am\u00c3\u00a9rica M\u00c3\u00b3vil B.V.",
+      "from": "América Móvil B.V.",
       "to": "Telekom Austria AG",
       "label": "60.9%",
       "type": "OWNS",
